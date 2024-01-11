@@ -1,6 +1,6 @@
 import { MotionTransition } from "@/components/MotionTransition";
-import { dataPricePlans } from "./PricesPlans.data";
-import { PricesPlansProps } from "./PricesPlans.types";
+import { dataPricePlans } from "@/data/PricesPlans";
+import { PricesPlansProps } from "/home/kevindev/workspace/NS_proyects/tarre/data/PricesPlans.types";
 
 
 export function PricesPlans(props: PricesPlansProps) {
@@ -46,7 +46,7 @@ export function PricesPlans(props: PricesPlansProps) {
                             <button className={`px-8 py-3 rounded-xl 
                             ${primary ?
                                     'border-2 border-pink-400 text-pink-400 bg-white' :
-                                    'text-white bg-pink-600'}`}>
+                                    'text-white ./PricesPlans.typesbg-pink-600'}`}>
                                 Contratar plan</button>
                         </div>
                     </div>

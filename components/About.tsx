@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MotionTransition } from "../MotionTransition";
+import { MotionTransition } from "./MotionTransition";
 
 
 export function About() {
